@@ -1,0 +1,66 @@
+/* Global Styles
+----------------------*/
+:root {
+    --mint-cream: hsla(152, 52%, 98%, 1);
+    --eton-blue: hsla(143, 32%, 63%, 1);
+    --russian-green: hsla(145, 25%, 45%, 1);
+    --mustard: hsla(47, 98%, 67%, 1);
+    --twilight-lavender: hsla(334, 25%, 40%, 1);
+    --xiketic: hsla(330, 20%, 8%, 1);
+}
+
+body {
+    color: var(--xiketic);
+    background-color: var(--mint-cream);
+}
+
+a {
+    color: var(--eton-blue);
+}
+
+a:hover {
+    color: var(--mustard);
+}
+
+img {
+    width: 300px;
+}
+
+/* Profile
+----------------------*/
+
+header {
+    background-color: var(--twilight-lavender);
+    color: var(--mint-cream);
+}
+
+/* Project
+----------------------*/
+
+.projects a {
+    color: var(--mint-cream);
+    background-color: var(--russian-green);
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.projects a:hover {
+    background-color: var(--eton-blue);
+}
+
+/* Education
+----------------------*/
+
+.education {
+    background-color: var(--eton-blue);
+}
+
+/* Contact
+----------------------*/
+footer {
+    background-color: var(--twilight-lavender);
+    color: var(--mint-cream);
+    text-align: center;
+}
